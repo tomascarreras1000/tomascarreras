@@ -197,51 +197,30 @@
 					</header>
 					<div class="row">
 						<div class="col-12">
-							<form target="_blank" action="https://docs.google.com/forms/d/e/1FAIpQLSfgG0ravwEhu4BHJV1cIqTihP35q3fn7mUkoZ7hPCcHs/formResponse" target="_self"  method="post" id="subscriptionForm" class="sky-form contact-style">
+							<form method="post" form target="_blank" action="https://docs.google.com/forms/d/e/1FAIpQLSfgG0ravwEhu4BHJV1cIqTihP35q3fn7mUkoZ7hPCcHs/formResponse" target="_self"  method="post" id="subscriptionForm" class="sky-form contact-style">
 							<fieldset>
-								<div class="col-12">
-									<label><strong>First name</strong></label>
-									<label><strong><localized-text key="Form First Name"></localized-text></strong></label>
-									<div class="row">
-										<div class="margin-bottom-20 col-sm-offset-0">
-											<div>
-												<input type="text" name="entry.152194472" class="form-control" required>
-											</div>
-										</div>
+								<div class="row">
+									<div class="col-6 col-12-small">
+										<input type="text" name="entry.152194472" id="name" placeholder="Name" class="form-control" required/>
 									</div>
-							
-									<label><strong>Last name</strong></label>
-									<label><strong><localized-text key="Form Last Name"></localized-text></strong></label>
-									<div class="row">
-										<div class="margin-bottom-20 col-sm-offset-0">
-											<div>
-												<input type="text" name="entry.508260427" class="form-control" required>
-											</div>
-										</div>
+									<div class="col-6 col-12-small">
+										<input type="email" name="entry.508260427" id="email" placeholder="Email" class="form-control" required/>
 									</div>
-
-									<label><strong>First name</strong></label>
-									<label><strong><localized-text key="Form Email"></localized-text></strong></label>
-									<div class="row">
-										<div class="margin-bottom-20 col-sm-offset-0">
-											<div>
-												<input type="email" name="entry.2078224771" class="form-control" required>
-											</div>
-										</div>
+									<div class="col-12">
+										<input type="text" name="entry.152194472" id="subject" placeholder="Subject" class="form-control" required/>
 									</div>
-
-									<label><strong> </strong></label>
-									<div class="row">
-										<div class="margin-bottom-20 col-sm-offset-0">
-											<div>
-												<input type="submit" value="Send message" name="contactSubmitButton" class="form-control btn-u btn-brd btn-brd-hover" />
-											</div>
-										</div>
+									<div class="col-12">
+										<textarea name="entry.152194472" id="message" placeholder="Message" class="form-control" required></textarea>
+									</div>
+									<div class="col-12">
+										<ul class="actions">
+											<li><input type="submit" value="Send Message" /></li>
+											<li><input type="reset" value="Clear Form" class="alt" /></li>
+										</ul>
 									</div>
 								</div>
-
-							</fieldset>
-						</form>
+                					</fieldset>
+							</form>
 						</div>
 						<div class="col-12">
 							<hr />
